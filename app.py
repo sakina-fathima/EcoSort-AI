@@ -1,5 +1,5 @@
 import streamlit as st
-from google import genai
+import google.generativeai as genai
 from google.genai.types import HttpOptions
 from PIL import Image
 import time
