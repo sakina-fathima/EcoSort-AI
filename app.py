@@ -8,7 +8,7 @@ import time
 # Leave it exactly like this in your file:
 API_KEY = st.secrets["GOOGLE_API_KEY"]
 client = genai.Client(
-    API_KEY = st.secrets["GOOGLE_API_KEY"])
+    api_key = st.secrets["GOOGLE_API_KEY"])
 
 st.set_page_config(page_title="EcoSort AI", page_icon="🌱", layout="wide")
 
